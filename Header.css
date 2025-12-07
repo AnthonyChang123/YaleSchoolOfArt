@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* prevents content from hiding under fixed nav */
+}
+
+/* Header / Nav Bar */
+header {
+    position: absolute;        /* stays at top while scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+/* Navigation layout */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 10px;
+}
+
+/* Link appearance */
+nav a {
+    color: #0038a8;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    outline: .5px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
+    .Blue_Y {
+        color: #0038a8;
+    }
