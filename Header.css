@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    padding-top: 60px; /* prevents content from hiding under fixed nav */
+    font-family: Arial, sans-serif; /* prevents content from hiding under fixed nav */
 }
 
 /* Header / Nav Bar */
 header {
-    position: absolute;        /* stays at top while scrolling */
+    position:relative;        /* stays at top while scrolling */
     top: 0;
     left: 0;
     width: 100%;
