@@ -81,6 +81,20 @@
 .ql-pubs  { background-image: url("pictures/book.jpeg"); }
 .ql-events{ background-image: url("pictures/history.jpg"); }
 
+.ql-paint  { background-image: url("pictures/paint.webp"); }
+.ql-sculpt { background-image: url("pictures/sculpt.webp"); }
+.ql-music { background-image: url("pictures/music.jpg"); }
+.ql-film { background-image: url("pictures/film.webp"); }
+.ql-photography  { background-image: url("pictures/photography.webp"); }
+.ql-literature{ background-image: url("pictures/Literature.jpg"); }
+
+.ql-StudentArt{ background-image: url("pictures/GreekSlave.jpg"); }
+.ql-StudentArt2{ background-image: url("pictures/Wave.webp"); }
+.ql-StudentArt3{ background-image: url("pictures/TestPaint.jpg"); }
+.ql-StudentArt4{ background-image: url("pictures/TestPaint.jpg"); }
+.ql-StudentArt5{ background-image: url("pictures/TestPaint.jpg"); }
+.ql-StudentArt6{ background-image: url("pictures/TestPaint.jpg"); }
+
 
 /* ---- Announcement + Calendar ---- */
 

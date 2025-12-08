@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Slideshow.css">
+    <link rel="stylesheet" href="Homepage.css">
+    <script src="slideshow.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+
+<header>
+    <h1 class="School_Title"><span class="Blue_Y">Y</span>ale School of Art</h1>
+    <nav>
+        <a href="HomePage.html">Home</a>
+        <a href="AboutPage.html">About</a>
+        <a href="ApplyPage.html">Apply</a>
+        <a href="OnlineExhibitions.html">Online Exhibitions</a>
+        <a href="PublicationsPage.html">Publications</a>
+        <a href="publicevents.html">Public Events</a>
+        <a href="NewsPage.html">News</a>
+    </nav>
+</header>
+
+<div class="SummaryContainer">
+    <h2>Online Exhibitions</h2>
+    <hr class="Horizontal_line" />
+    <p>The School of Art is one of Yale’s Graduate & Professional Schools conferring MFA degrees in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.</p>
+</div>
+<div class="BottomSection">
+  <!-- Left: Announcement Board with clickable event cards -->
+  <div class="AnnouncmentBoard">
+    <h2>Announcement Board</h2>
+
+    <div class="event-card" data-title="Open Studios Night">
+      <h3>Open Studios Night</h3>
+      <p>Visit MFA student studios and view current work.</p>
+    </div>
+
+    <div class="event-card" data-title="Visiting Artist Lecture">
+      <h3>Visiting Artist Lecture</h3>
+      <p>Guest talk in Graphic Design auditorium.</p>
+    </div>
+
+    <div class="event-card" data-title="Application Info Session">
+      <h3>Application Info Session</h3>
+      <p>Learn more about MFA applications and deadlines.</p>
+    </div>
+  </div>
+
+  <!-- Right: Calendar section like your teammate's -->
+  <section id="calendar" class="calendar-section" aria-label="Public events calendar">
+    <div class="calendar-header">Calendar</div>
+
+    <div class="calendar-selected">
+      Selected event:
+      <span id="selectedEvent">None</span>
+    </div>
+
+    <div class="calendar-frame-wrapper">
+      <iframe
+        src="https://soapublicevents.eventcalendarapp.com/"
+        title="Yale School of Art Public Events Calendar">
+      </iframe>
+
+      <div class="calendar-fallback">
+        If the calendar does not load, view it at
+        <a href="https://www.art.yale.edu/public-events" target="_blank" rel="noopener">
+          art.yale.edu/public-events
+        </a>.
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="Quicklinks">
+    <a href="OnlineExhibitionsCon.html" class="ql-paint">Painting</a>
+    <a href="OnlineExhibitionsCon.html" class="ql-sculpt">Sculpture Work</a>
+    <a href="OnlineExhibitionsCon.html" class="ql-music">Music</a>
+    <a href="OnlineExhibitionsCon.html" class="ql-film">Film</a>
+    <a href="OnlineExhibitionsCon.html" class="ql-photography">Photography</a>
+    <a href="OnlineExhibitionsCon.html" class="ql-literature">Literature</a>
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
