@@ -1,0 +1,105 @@
+h1 {
+        text-align: center;
+        font-size: 48px;
+        margin-top: 40px;
+        font-weight: 700;
+    }
+
+    .Blue_Y {
+        color: #0038a8;
+    }
+
+.Building_Picture {
+        width: 50%;
+        max-width: 900px;
+        display: block;
+        margin: 40px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    .menu-box {
+    width: 60%;
+    margin: 15px auto;
+    background: #0038a8;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.menu-box:hover {
+    background: white;
+    color: #0038a8;
+    border: 2px solid #0038a8;
+    transform: translateY(-3px);
+}
+
+.apply-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.apply-box {
+    background: #0038a8;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: 0.25s;
+
+    /* Make ALL boxes the same width */
+    width: 280px;
+}
+
+/* Hover effect */
+.apply-box:hover {
+    background: white;
+    color: #0038a8;
+    transform: translateY(-3px);
+}
+
+.apply-info-box {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #f5f8ff;
+    border-left: 6px solid #0038a8;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.apply-info-box h2 {
+    color: #0038a8;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.apply-info-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+/* Underline + blue email link */
+.apply-info-box a {
+    color: #0038a8;
+    text-decoration: underline;
+    font-weight: 600;
+}
