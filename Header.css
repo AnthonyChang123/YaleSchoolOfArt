@@ -7,7 +7,7 @@ body {
 
 /* Header / Nav Bar */
 header {
-    position:relative;        /* stays at top while scrolling */
+    position:relative;
     top: 0;
     left: 0;
     width: 100%;

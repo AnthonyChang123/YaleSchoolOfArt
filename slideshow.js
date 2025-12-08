@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (slides.length === 0) return;
 
-        // First slide visible
+        
         slides[index].classList.add("active");
 
         setInterval(() => {
