@@ -60,11 +60,10 @@ h1 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     cursor: pointer;
     transition: 0.25s;
-
     width: 280px;
 }
 
-/* Hover effect */
+
 .apply-box:hover {
     background: white;
     color: #0038a8;
