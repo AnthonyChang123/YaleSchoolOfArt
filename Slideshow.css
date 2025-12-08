@@ -1,8 +1,18 @@
+.Slideback {
+    background-color: #0038a8;       /* dark strip behind slideshow */
+    padding: 1.5rem 0;
+    box-shadow: inset 0 0 50px #000000;
+}
+
 .slideshow {
     position: relative;
-    width: 50%;
-    height: 300px;          /* adjust height if needed */
+    width: 90%;
+    max-width: 1100px;
+    height: 320px;
+    margin: 0 auto;                  /* center on page */
     overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 /* each slide */
@@ -13,14 +23,14 @@
     transition: opacity 1s ease-in-out;
 }
 
-/* make images fill area */
+/* visible slide */
+.slideshow div.active {
+    opacity: 1;
+}
+
+/* images fill area */
 .slideshow img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-/* first slide starts visible */
-.slideshow div.active {
-    opacity: 1;
 }
