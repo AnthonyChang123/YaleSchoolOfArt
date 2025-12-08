@@ -28,9 +28,9 @@ const nextBtn = document.getElementById("nextSlide");
 
 const slides = [
   { src: "yale-art-1.jpg", alt: "Yale School of Art 1" },
-  { src: "yale-art-2.jpg",  alt: "Yale School of Art 2" },
+  { src: "yale-art-2.jpg", alt: "Yale School of Art 2" },
   { src: "yale-art-3.webp", alt: "Yale School of Art 3" },
-  { src: "yale-art-4.jpg",  alt: "Yale School of Art 4" }
+  { src: "yale-art-4.jpg", alt: "Yale School of Art 4" }
 ];
 
 let currentSlide = 0;
@@ -51,6 +51,7 @@ function startSlideshow() {
     currentSlide = (currentSlide + 1) % slides.length;
     showSlide(currentSlide);
   }, 4000); 
+}
 
 if (heroImage && slides.length > 0) {
   showSlide(currentSlide);
@@ -71,6 +72,4 @@ if (heroImage && slides.length > 0) {
       startSlideshow(); 
     });
   }
-}
-
 }
